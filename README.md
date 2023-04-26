@@ -7,6 +7,11 @@ It uses the following
 - Chromium Embedded Framework (https://bitbucket.org/chromiumembedded/cef/src/master/)
 - Bastian Olij's Godot OpenXR Plugin (https://github.com/GodotVR/godot_openxr)
 
+In trying to get the codebase merged, it occurs that you'll likely need to grab:
+`src/CEFTex/x64/Release/libcef.dll`
+
+in order for this to work. Check the CEF repo listed above to figure that one out.
+
 Here's an annoying illustration captured in Godot: https://www.youtube.com/watch?v=-Pw1xs2w3gc
 
 There are some improvements pushed here, the controller code transitioned to a 
