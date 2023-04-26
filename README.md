@@ -50,7 +50,11 @@ Primary implementation logic unqiue to this project lies in the following source
 `src/cef-tex/cef_handler.cpp`
 `cef_generator.gd`
 
-This is released under MIT license, and subject to restrictions by licenses of some included components that may or may not be redistributed.
+# licensing
+The relevant sections are released under MIT license, and subject to restrictions by licenses of some included components that may or may not be redistributed.
+
+Any sections not subject to the MIT license are subject to their respective licenses.
+
 ```
 // Copyright (c) 2008-2020 Marshall A. Greenblatt. Portions Copyright (c)
 // 2006-2009 Google Inc. All rights reserved.
