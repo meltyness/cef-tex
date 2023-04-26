@@ -1,0 +1,54 @@
+﻿  CEFTexBackendProcess.cpp
+     Creating library C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTexBackendProcess.lib and object C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTexBackendProcess.exp
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: static class std::unique_ptr<class client::MainMessageLoopExternalPump,struct std::default_delete<class client::MainMessageLoopExternalPump> > __cdecl client::MainMessageLoopExternalPump::Create(void)" (?Create@MainMessageLoopExternalPump@client@@SA?AV?$unique_ptr@VMainMessageLoopExternalPump@client@@U?$default_delete@VMainMessageLoopExternalPump@client@@@std@@@std@@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: class scoped_refptr<class client::RootWindow> __cdecl client::RootWindowManager::CreateRootWindow(class std::unique_ptr<struct client::RootWindowConfig,struct std::default_delete<struct client::RootWindowConfig> >)" (?CreateRootWindow@RootWindowManager@client@@QEAA?AV?$scoped_refptr@VRootWindow@client@@@@V?$unique_ptr@URootWindowConfig@client@@U?$default_delete@URootWindowConfig@client@@@std@@@std@@@Z)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::ClientAppBrowser::ClientAppBrowser(void)" (??0ClientAppBrowser@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::ClientAppRenderer::ClientAppRenderer(void)" (??0ClientAppRenderer@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: void __cdecl client::MainContextImpl::Shutdown(void)" (?Shutdown@MainContextImpl@client@@QEAAXXZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: bool __cdecl client::MainContextImpl::Initialize(class CefMainArgs const &,class CefStructBase<struct CefSettingsTraits> const &,class scoped_refptr<class CefApp>,void *)" (?Initialize@MainContextImpl@client@@QEAA_NAEBVCefMainArgs@@AEBV?$CefStructBase@UCefSettingsTraits@@@@V?$scoped_refptr@VCefApp@@@@PEAX@Z)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::MainContextImpl::MainContextImpl(class scoped_refptr<class CefCommandLine>,bool)" (??0MainContextImpl@client@@QEAA@V?$scoped_refptr@VCefCommandLine@@@@_N@Z)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::MainMessageLoopStd::MainMessageLoopStd(void)" (??0MainMessageLoopStd@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: void __cdecl client::MainMessageLoop::PostClosure(class base::OnceCallback<void __cdecl(void)>)" (?PostClosure@MainMessageLoop@client@@QEAAXV?$OnceCallback@$$A6AXXZ@base@@@Z)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: static class client::MainMessageLoop * __cdecl client::MainMessageLoop::Get(void)" (?Get@MainMessageLoop@client@@SAPEAV12@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "void __cdecl client::test_runner::RegisterSchemeHandlers(void)" (?RegisterSchemeHandlers@test_runner@client@@YAXXZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::ClientAppOther::ClientAppOther(void)" (??0ClientAppOther@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::RootWindowConfig::RootWindowConfig(void)" (??0RootWindowConfig@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: __cdecl client::MainMessageLoopMultithreadedWin::MainMessageLoopMultithreadedWin(void)" (??0MainMessageLoopMultithreadedWin@client@@QEAA@XZ)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "char const * const client::switches::kHideControls" (?kHideControls@switches@client@@3QBDB)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "char const * const client::switches::kAlwaysOnTop" (?kAlwaysOnTop@switches@client@@3QBDB)
+CEFTexBackendProcess.obj : error LNK2001: unresolved external symbol "public: static enum client::ClientApp::ProcessType __cdecl client::ClientApp::GetProcessType(class scoped_refptr<class CefCommandLine>)" (?GetProcessType@ClientApp@client@@SA?AW4ProcessType@12@V?$scoped_refptr@VCefCommandLine@@@@@Z)
+cef_sandbox.lib(time_win.obj) : error LNK2001: unresolved external symbol __imp_timeEndPeriod
+cef_sandbox.lib(time_win.obj) : error LNK2001: unresolved external symbol __imp_timeBeginPeriod
+cef_sandbox.lib(time_win.obj) : error LNK2001: unresolved external symbol __imp_timeGetTime
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymCleanup
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymSetOptions
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymInitialize
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymGetSearchPathW
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymSetSearchPathW
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymGetModuleBase64
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymFunctionTableAccess64
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_StackWalk64
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymFromAddr
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol __imp_SymGetLineFromAddr64
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol SymGetModuleBase64
+cef_sandbox.lib(stack_trace_win.obj) : error LNK2001: unresolved external symbol SymFunctionTableAccess64
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol __imp_SetupDiGetClassDevsW
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol __imp_SetupDiEnumDeviceInfo
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol __imp_CM_Get_Device_IDW
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol __imp_InitPropVariantFromCLSID
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol PowerDeterminePlatformRoleEx
+cef_sandbox.lib(win_util.obj) : error LNK2001: unresolved external symbol __imp_IsOS
+cef_sandbox.lib(file_version_info_win.obj) : error LNK2001: unresolved external symbol VerQueryValueW
+cef_sandbox.lib(file_version_info_win.obj) : error LNK2001: unresolved external symbol GetFileVersionInfoSizeW
+cef_sandbox.lib(file_version_info_win.obj) : error LNK2001: unresolved external symbol GetFileVersionInfoW
+cef_sandbox.lib(pe_image.obj) : error LNK2001: unresolved external symbol __HrLoadAllImportsForDll
+cef_sandbox.lib(file_util_win.obj) : error LNK2001: unresolved external symbol __imp_ioctlsocket
+cef_sandbox.lib(target_services.obj) : error LNK2001: unresolved external symbol __imp_WSASetLastError
+cef_sandbox.lib(target_services.obj) : error LNK2001: unresolved external symbol __imp_WSASocketW
+cef_sandbox.lib(socket_dispatcher.obj) : error LNK2001: unresolved external symbol __imp_WSASocketW
+cef_sandbox.lib(file_enumerator_win.obj) : error LNK2001: unresolved external symbol __imp_PathMatchSpecW
+cef_sandbox.lib(socket_dispatcher.obj) : error LNK2001: unresolved external symbol __imp_WSADuplicateSocketW
+cef_sandbox.lib(socket_dispatcher.obj) : error LNK2001: unresolved external symbol __imp_WSAGetLastError
+cef_sandbox.lib(socket_dispatcher.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+LIBCMT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTexBackendProcess.exe : fatal error LNK1120: 50 unresolved externals
