@@ -34,6 +34,10 @@ properly-determined state machine instead of some hacky stuff slapped together
 to focus on other components, and instead of the back button being the Godot-bot,
 instead it's a back symbol.
 
+Keyboard / text input is complicated by OS integration, the project doesn't support this
+but if you want to use HTML5 as your toolchain for your menu and maybe signal back to
+Godot encoding commands into the URLs traversed, this would be a good tool to do that with.
+
 # building
 It should be compatible with Linux, but you're on your own with building, and 
 reconfiguring the references to the link libraries.
