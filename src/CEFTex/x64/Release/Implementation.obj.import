@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Implementation.obj-e934b1f90481f96faf8f2d507f5cd4f8.mesh"
+
+[deps]
+
+files=[ "res://.import/Implementation.obj-e934b1f90481f96faf8f2d507f5cd4f8.mesh" ]
+
+source_file="res://src/CEFTex/x64/Release/Implementation.obj"
+dest_files=[ "res://.import/Implementation.obj-e934b1f90481f96faf8f2d507f5cd4f8.mesh", "res://.import/Implementation.obj-e934b1f90481f96faf8f2d507f5cd4f8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

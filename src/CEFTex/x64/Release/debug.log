@@ -1,0 +1,7 @@
+[0319/154810.906:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[0319/154813.461:INFO:CONSOLE(339)] "Godot Engine v3.3.3.stable.official.b973f997f - https://godotengine.org", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
+[0319/154813.559:INFO:CONSOLE(9)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (9)
+[0319/154813.560:INFO:CONSOLE(9)] "The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet)", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (9)
+[0319/154813.564:INFO:CONSOLE(339)] "OpenGL ES 2.0 Renderer: WebKit WebGL", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
+[0319/154813.584:INFO:CONSOLE(339)] "OpenGL ES Batching: ON", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
+[0319/154813.588:INFO:CONSOLE(339)] " ", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
