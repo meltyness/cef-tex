@@ -1,3 +1,5 @@
+... this is really ugly.
+
 # cef-tex introduction
 Cef-tex is a C++-based proof-of-concept grade module for Godot game engine that 
 facilitates instantiating web browser processes, receive audio from them, 
@@ -29,6 +31,8 @@ interactable.
 `sdl-stripped-cpp-example.txt` illustrates bootstrapping
 
 # code status
+This was built with Godot 3.4.3.
+
 This is a limited part of what's really needed, I haven't included the full scene demonstrated
 above, but here is a basic usage scenario: 
 
@@ -46,6 +50,11 @@ but if you want to use HTML5 as your toolchain for your menu and maybe signal ba
 Godot encoding commands into the URLs traversed, this would be a good tool to do that with.
 
 # building
+Some pre-built binaries included, and others are not. The VC++ project should illustrate the requirements,
+and Godot has docs on how to use C++. They won't work because of the following TODO in `Implementation.cpp`
+
+`// TODO: Figure out how to fucking mke this a relative path`
+
 It should be compatible with Linux, but you're on your own with building, and 
 reconfiguring the references to the link libraries.
 
