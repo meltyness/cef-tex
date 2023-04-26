@@ -1,5 +1,7 @@
 # cef-tex
-Cef-tex is a C++-based module for Godot game engine that facilitates instantiating a web browser, receives audio from the web browser, and renders it to a texture for usage in any Godot-based applications. 
+Cef-tex is a C++-based proof-of-concept grade module for Godot game engine that facilitates instantiating a web browser, receives audio from the web browser, and renders it to a texture for usage in any Godot-based applications. 
+
+`src/cef-tex/Implementation.cpp` 
 
 This is released under MIT license, and subject to restrictions by licenses of some included components that may or may not be redistributed.
 ```
