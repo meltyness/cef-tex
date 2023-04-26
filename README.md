@@ -29,10 +29,17 @@ interactable.
 `sdl-stripped-cpp-example.txt` illustrates bootstrapping
 
 # code status
-There are some improvements pushed here, the controller code transitioned to a 
-properly-determined state machine instead of some hacky stuff slapped together
-to focus on other components, and instead of the back button being the Godot-bot,
-instead it's a back symbol.
+This is a limited part of what's really needed, I haven't included the full scene demonstrated
+above, but here is a basic usage scenario: 
+
+![image](https://user-images.githubusercontent.com/86126050/234715788-e95f2532-191d-446e-a0f3-f12bef367d48.png)
+
+- A *control* contains a CefTexInputWrapper (and script) 
+- The CefTexInputWrapper contains CefTex, a *TextureRect* and a `gdns` which references the `gdnlib` which in turn
+     references the compiled C++ module
+- There's also a *Control* containing the back button, and a signal connection to the InputWrapper
+- Finally the Node, AudioManager, contains a script which receives an unseen AudioStreamPlayer32, and every tick
+     checks CefTex library for available sample buffer, and pushes it into the scene.
 
 Keyboard / text input is complicated by OS integration, the project doesn't support this
 but if you want to use HTML5 as your toolchain for your menu and maybe signal back to
