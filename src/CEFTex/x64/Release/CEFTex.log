@@ -1,1 +1,12 @@
-﻿
+﻿  Implementation.cpp
+C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\key_mapping_windows.h(36,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\key_mapping_windows.h(36,1): message : 'WIN32_LEAN_AND_MEAN' previously declared on the command line
+C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\Implementation.cpp(105,26): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\Implementation.cpp(106,25): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+     Creating library CEFTex.lib and object CEFTex.exp
+  Generating code
+  1 of 792 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CEFTex.vcxproj -> C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTex.dll

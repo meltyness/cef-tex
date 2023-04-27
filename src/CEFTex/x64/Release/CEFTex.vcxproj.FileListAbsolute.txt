@@ -1,1 +1,2 @@
 C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTex.dll
+C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTex.dll
