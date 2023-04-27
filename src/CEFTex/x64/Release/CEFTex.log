@@ -1,17 +1,1 @@
-﻿  Implementation.cpp
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\key_mapping_windows.h(36,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\Implementation.cpp : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\Implementation.cpp(93,26): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\Implementation.cpp(94,25): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-  library.cpp
-  cef_handler.cpp
-  key_mapping.cpp
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\key_mapping_windows.h(36,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\key_mapping.cpp : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
-  keyboard.cpp
-     Creating library CEFTex.lib and object CEFTex.exp
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 838 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  CEFTex.vcxproj -> C:\Users\thoma\GammaSP\godot_workspace\cef-tex\src\CEFTex\x64\Release\CEFTex.dll
+﻿

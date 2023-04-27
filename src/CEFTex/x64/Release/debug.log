@@ -5,3 +5,15 @@
 [0319/154813.564:INFO:CONSOLE(339)] "OpenGL ES 2.0 Renderer: WebKit WebGL", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
 [0319/154813.584:INFO:CONSOLE(339)] "OpenGL ES Batching: ON", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
 [0319/154813.588:INFO:CONSOLE(339)] " ", source: https://godotengine.github.io/godot-demo-projects/2d/bullet_shower/index.js (339)
+[0427/124457.107:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0427/124457.123:WARNING:frame_impl.cc(396)] SendJavaScript sent to detached frame 17179869185 [4,1] will be ignored
+[0427/124457.126:INFO:CONSOLE(0)] "The Cross-Origin-Opener-Policy header has been ignored, because the URL's origin was untrustworthy. It was defined either in the final response or a redirect. Please deliver the response using the HTTPS protocol. You can also use the 'localhost' origin instead. See https://www.w3.org/TR/powerful-features/#potentially-trustworthy-origin and https://html.spec.whatwg.org/#the-cross-origin-opener-policy-header.", source: https://www.google.com/?gws_rd=ssl (0)
+[0427/124458.319:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-full-version-list'.", source:  (0)
+[0427/124458.319:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-wow64'.", source:  (0)
+[0427/130020.272:FATAL:v8_initializer.cc(412)] Error loading V8 startup snapshot file
+[0427/130021.649:ERROR:network_service_instance_impl.cc(916)] Network service crashed, restarting service.
+[0427/130021.663:FATAL:v8_initializer.cc(412)] Error loading V8 startup snapshot file
+[0427/130023.338:ERROR:network_service_instance_impl.cc(916)] Network service crashed, restarting service.
+[0427/130023.354:FATAL:v8_initializer.cc(412)] Error loading V8 startup snapshot file
+[0427/130024.910:ERROR:network_service_instance_impl.cc(916)] Network service crashed, restarting service.
+[0427/130024.925:FATAL:v8_initializer.cc(412)] Error loading V8 startup snapshot file
