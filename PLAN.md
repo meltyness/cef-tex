@@ -5,22 +5,29 @@
 		- [] Fetch cef-tex from Git
 		- [] Follow simple instructions to kick-off build system
 			- [] I.E. CMake, Jenkins, Python script
+			- [] CMake is necessary for cef-project, pulls cef binary dist 
 
 	- [] Basic tasks
 		- [] Fetch CEF from Git
-			- [] definitely in scope
-			- [] cef_binary_96.0.16+g89c902b
-			- [] -- why did i do this? was this the current version at the time?
-			- [] -- actually maybe, the spotify CDN has a build automation that was 
-			         referenced in some tutorial as a recommended source since building
-					 cef is actually really really ridiculously difficult.
+			- [] git clone https://bitbucket.org/chromiumembedded/cef-project.git
+			- [] verify success
+			- [] cmake .
+			- [] verify success
+			- [] Use MSBuild to build ALL_BUILD.vcxproj
+				- [] preferably with -maxCpuCount:16
+				- [] ... must have -p:Configuration=Release
 		- [] Build for specific platform
 		- [] Fetch Godot from Git
 			- [] definitely in scope
 			- [] https://github.com/godotengine/godot-cpp
 			- [] Grab the 3.x branch, for now.
 			- [] it needs to be built too which is hard and depends on Scons, ouch
-		- [] Build for specific platform
+		- [] Library directories for CEF, and Godot-cpp into cef-tex build
+		- [] Include directories for CEF, and Godot-cpp into cef-tex build
 		- [] Build cef-tex for specific platform
-		- [] Configure gdns/gdnlib for 
+			- [] Cef-tex also somehow needs to correctly inherit cefclient binary location
+			- [] Also what in the fuck is the fucking search-path for the fucking dlls fucking
+			     cefclient fucking needs when it's being fucking loaded by fucking ceftex. fuck!
+		    - [] Whatever, just fucking dump it in there, holy shit.
+		- [] Configure gdns/gdnlib for the DLL
 

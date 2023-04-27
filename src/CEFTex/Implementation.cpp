@@ -56,26 +56,38 @@ void CEFTex::_init() {
     
     app_wrapper = new AppWrapper();
 
+    
+
+    // TODO: Temporary troubleshooting measure, revert to false
     settings.windowless_rendering_enabled = true;
     //settings.multi_threaded_message_loop = true;
 
     //std::cout << "" << OS::get_singleton()->get_data_dir();
     
     // TODO: Figure out how to fucking mke this a relative path
-    CefString(&settings.browser_subprocess_path).FromString("C:\\Users\\thoma\\GammaSP\\godot_workspace\\cef-tex\\src\\CEFTex\\x64\\Release\\cefclient.exe");
-
+    godot::Godot::print_error("Set the path!", "OH WOW", "OMG", 24);
+    CefString(&settings.browser_subprocess_path).FromString("C:\\Users\\thomas\\OneDrive\\Code and Projects\\GammaSP\\godot_workspace\\cef-project-new\\third_party\\cef\\cef_binary_106.0.26+ge105400+chromium-106.0.5249.91_windows64\\tests\\cefclient\\Release\\cefclient.exe");
+    godot::Godot::print_error("Cefinishulize", "OH WOW", "OMG", 24);
     CefInitialize(args, settings, app_wrapper, nullptr);
+    godot::Godot::print_error("Axing Proxcess", "OH WOW", "OMG", 24);
     int exec_result = CefExecuteProcess(args, app_wrapper, nullptr);
-    browser = CefBrowserHost::CreateBrowserSync(window_info, browserClient.get(), "https://www.youtube.com/watch?v=Vcrb6365GsQ", browserSettings, nullptr, nullptr);
-    
-    browser->GetHost()->SetAudioMuted(true);
+    godot::Godot::print_error("Creat browse sync", "OH WOW", "OMG", 24);
+
+    browser = CefBrowserHost::CreateBrowserSync(window_info, 
+                                                browserClient.get(), 
+                                                "chrome://version", 
+                                                browserSettings, 
+                                                nullptr, nullptr);
+    godot::Godot::print_error("Created browser", "OH WOW", "OMG", 24);
+    //browser->GetHost()->SetAudioMuted(true);
     godot::Godot::print_error("post - chrome", "OH WOW", "OMG", 24);
 }
 
 void CEFTex::_process(float delta) {
     CefDoMessageLoopWork();
-
+    godot::Godot::print_error("Did message work, wow!", "OH WOW", "OMG", 24);
     if (this->loadHandler->success) {
+        godot::Godot::print_error("Page fucking loaded, holy fuck!", "OH WOW", "OMG", 24);
         memcpy((void*)(last_buffer.write().ptr()), renderHandler->texture_data, rect_width * rect_height * 4);
         last_image->create_from_data(rect_width, rect_height, false, godot::Image::Format::FORMAT_RGBA8, last_buffer);
         last_image_texture->create_from_image(last_image, godot::Texture::FLAGS_DEFAULT);

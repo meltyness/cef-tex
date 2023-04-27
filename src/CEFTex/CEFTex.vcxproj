@@ -96,7 +96,7 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.dll</TargetExt>
     <IncludePath>$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\cef-project\build\libcef_dll_wrapper\Release;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\cef-project\third_party\cef\cef_binary_96.0.16+g89c902b+chromium-96.0.4664.55_windows64\Release;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\cef-project-new\libcef_dll_wrapper\Release;C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-project-new\third_party\cef\cef_binary_106.0.26+ge105400+chromium-106.0.5249.91_windows64\Release;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -146,7 +146,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\cef-project\third_party\cef\cef_binary_96.0.16+g89c902b+chromium-96.0.4664.55_windows64;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include\gen;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include\core;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\godot-headers;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thomas\OneDrive\Code and Projects\GammaSP\godot_workspace\cef-project-new\third_party\cef\cef_binary_106.0.26+ge105400+chromium-106.0.5249.91_windows64;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include\gen;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include\core;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\godot-headers;C:\Users\thomas\onedrive\Code and Projects\GammaSP\godot_workspace\godot-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
