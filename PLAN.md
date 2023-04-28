@@ -28,6 +28,10 @@
 			- [] Cef-tex also somehow needs to correctly inherit cefclient binary location
 			- [] Also what in the fuck is the fucking search-path for the fucking dlls fucking
 			     cefclient fucking needs when it's being fucking loaded by fucking ceftex. fuck!
+			- [] So
+				User calls Godot -> CEFTex.dll -> cefclient.exe
+				They pretty much all need to be in the same directory, for simplicity.
+				Build 'em, and mash 'em together. It's fine, it's part of the build.
 		    - [] Whatever, just fucking dump it in there, holy shit.
 		- [] Configure gdns/gdnlib for the DLL
 
